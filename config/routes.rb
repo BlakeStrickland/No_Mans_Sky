@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   resources :distances
+  root 'dashboards#home'
   get 'dashboards/home'
 
   # The priority is based upon order of creation: first created -> highest priority.
