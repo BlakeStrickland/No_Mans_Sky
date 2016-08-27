@@ -11,11 +11,75 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160827203701) do
+ActiveRecord::Schema.define(version: 20160827223554) do
+
+  create_table "alloys", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "base_cost"
+    t.text     "recipe"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "distances", force: :cascade do |t|
     t.string   "length"
     t.string   "direction"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "elements", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "base_cost"
+    t.text     "recipe"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "energies", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "base_cost"
+    t.text     "recipe"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "exosuit_upgrades", force: :cascade do |t|
+    t.string   "name"
+    t.text     "recipe"
+    t.string   "type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "multitool_upgrades", force: :cascade do |t|
+    t.string   "name"
+    t.text     "recipe"
+    t.string   "type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "ship_upgrades", force: :cascade do |t|
+    t.string   "name"
+    t.text     "recipe"
+    t.string   "type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "technologies", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "base_cost"
+    t.text     "recipe"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "trade_commodities", force: :cascade do |t|
+    t.string   "name"
+    t.integer  "base_cost"
+    t.text     "recipe"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
