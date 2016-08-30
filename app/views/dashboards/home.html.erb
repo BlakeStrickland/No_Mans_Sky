@@ -3,11 +3,34 @@
 
 <h4>Todays Travels</h4>
 <p>You have traveled <%= @todays_total%> light years today.</p>
-<% @todays.each do |d| %>
-  <p><%= d.length %> <%= d.direction %></p>
+
+
+<h4>Elements</h4>
+<% @elements.each do |d| %>
+  <p><%= d.name %> <%= d.base_cost %> <%= d.recipe%></p>
 <% end %>
 
-<h4>All Travels</h4>
-<% @distances.each do |d| %>
-  <p><%= d.length %> <%= d.direction %></p>
+<h4>Exosuit Upgrades </h4>
+<% @exo_upgrades.each do |d| %>
+  <p><%= d.name %> <%= d.recipe %> <%= d.category %></p>
+<% end %>
+
+<h4>Multiool Upgrades</h4>
+<% @multitool_upgrades.each do |d| %>
+  <p><%= d.name %> <%= d.recipe %> <%= d.category %></p>
+<% end %>
+
+<h4>Ship Upgrades</h4>
+<% @ship_upgrades.each do |d| %>
+  <p><%= d.name %> <%= d.recipe %> <%= d.category %></p>
+<% end %>
+
+<h4>Technologies</h4>
+<% @technologies.each do |d| %>
+  <p><%= d.name %> <%= d.base_cost %> <%= d.recipe%></p>
+<% end %>
+
+<h4>Trade Commodities</h4>
+<% @trade_commodities.each do |d| %>
+  <p><%= d.name %> <%= d.base_cost %> <%= d.recipe%></p>
 <% end %>
