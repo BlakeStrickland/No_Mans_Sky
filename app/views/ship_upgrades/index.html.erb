@@ -1,0 +1,11 @@
+<% @ship_upgrades.each do |upgrade| %>
+  <p><%= upgrade.name %> <%= upgrade.recipe %> <%= upgrade.category %></p>
+
+<% end %>
+
+<h2>Import Ship upgrades</h2>
+
+<%= form_tag import_ship_upgrades_path, multipart: true do %>
+  <%= file_field_tag :file %>
+  <%= submit_tag "Import" %>
+<% end %>

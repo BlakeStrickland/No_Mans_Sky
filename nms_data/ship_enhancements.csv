@@ -1,0 +1,19 @@
+name,recipe,type
+Cannon Damage Sigma,	Iron x 50 Thamium9 x 50, Weapon
+Cannon Damage Tau,	Iridium x 100 Copper x 50 Zinc x 50, Weapon
+Cannon Damage Theta,	Omegon x 100 Gold x 50 Zinc x 50, Weapon
+Advanced Cooling Sigma,	Thamium9 x 30 Chrysonite x 30 Iron x 50, Weapon
+Advanced Cooling Tau,	Thamium9 x 80 Chrysonite x 70 Iridium x 120, Weapon
+Advanced Cooling Theta,	Thamium9 x 200 Chrysonite x 250 Gravitino Ball x 10, Weapon
+Accelerated Fire Sigma,	Iron x 50 Aluminium x 100, Weapon
+Accelerated Fire Tau,	Nickel x 100 Platinum x 100, Weapon
+Accelerated Fire Theta,	Thamium9 x 300 Iron x 300 Dimensional Matrix x 3, Weapon
+Deflection Enhancement Sigma,	Carite Sheet x 6 Heridium x 500, Health
+Deflection Enhancement Tau,	Titanium x 200 Heridium x 250 Iron x 300, Health
+Deflection Enhancement Theta,	Zinc x 300 Platinum x 80 Emeril x 200, Health
+Warp Reactor Sigma,	Dynamic Resonator x 1 Iridium x 200 Copper x 400, Health
+Warp Reactor Tau,	Dynamic Resonator x 2 Nickel x 600 Aluminium x 800, Hyperdrive
+Warp reactor Theta,	Dynamic Resonator x 3 Gold x 1000 Emeril x 1000, Hyperdrive
+Photonix Core,	Chrysonite x 100 Iron x 200 Zinc x 50, Hyperdrive
+Pulse Jet Sigma,	Chrysonite x 100 Iron x 200 Zinc x 50, Hyperdrive
+Pulse Jet Tau,	Nickel x 100 Thamium9 x 50 Neautrino Module x 2, Hyperdrive

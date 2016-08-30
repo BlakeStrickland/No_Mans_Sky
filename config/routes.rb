@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  resources :ship_upgrades do
+    collection { post :import}
+  end
+
   root 'users#new'
 
   get 'dashboards/home'
