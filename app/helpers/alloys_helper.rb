@@ -1,0 +1,2 @@
+module AlloysHelper
+end

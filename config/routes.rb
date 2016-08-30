@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'trade_commodities/index'
+
+  get 'technologies/index'
+
+  get 'multitool_upgrades/index'
+
+  get 'exosuit_upgrades/index'
+
+  get 'energys/index'
+
+  get 'elements/index'
+
+  get 'alloys/index'
+
   resources :ship_upgrades do
     collection { post :import}
   end
