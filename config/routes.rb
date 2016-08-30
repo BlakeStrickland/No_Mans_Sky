@@ -1,18 +1,32 @@
 Rails.application.routes.draw do
-  get 'trade_commodities/index'
 
-  get 'technologies/index'
+  resources :trade_commodities do
+    collection { post :import}
+  end
 
-  get 'multitool_upgrades/index'
+  resources :technologies do
+    collection { post :import}
+  end
 
-  get 'exosuit_upgrades/index'
+  resources :multitool_upgrades do
+    collection { post :import}
+  end
 
-  get 'energys/index'
+  resources :exosuit_upgrades do
+    collection { post :import}
+  end
 
-  get 'elements/index'
+  resources :energys do
+    collection { post :import}
+  end
 
-  get 'alloys/index'
+  resources :elements do
+    collection { post :import}
+  end
 
+  resources :alloys do
+    collection { post :import}
+  end
   resources :ship_upgrades do
     collection { post :import}
   end
