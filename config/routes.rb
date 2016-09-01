@@ -1,5 +1,8 @@
 Rails.application.routes.draw do
 
+  resources :exosuits
+  resources :multitools
+  resources :ships
   resources :trade_commodities do
     collection { post :import}
   end
@@ -31,7 +34,7 @@ Rails.application.routes.draw do
     collection { post :import}
   end
 
-  root 'users#new'
+  root 'dashboards#home'
 
   get 'dashboards/home'
 

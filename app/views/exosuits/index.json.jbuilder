@@ -1,0 +1,1 @@
+json.array! @exosuits, partial: 'exosuits/exosuit', as: :exosuit

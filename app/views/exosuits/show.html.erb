@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @exosuit.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @exosuit.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_exosuit_path(@exosuit) %> |
+<%= link_to 'Back', exosuits_path %>

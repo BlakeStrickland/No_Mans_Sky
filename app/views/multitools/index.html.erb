@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Multitools</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @multitools.each do |multitool| %>
+      <tr>
+        <td><%= multitool.name %></td>
+        <td><%= multitool.user_id %></td>
+        <td><%= link_to 'Show', multitool %></td>
+        <td><%= link_to 'Edit', edit_multitool_path(multitool) %></td>
+        <td><%= link_to 'Destroy', multitool, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Multitool', new_multitool_path %>

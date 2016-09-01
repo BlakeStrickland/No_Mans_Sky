@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Exosuits</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @exosuits.each do |exosuit| %>
+      <tr>
+        <td><%= exosuit.name %></td>
+        <td><%= exosuit.user_id %></td>
+        <td><%= link_to 'Show', exosuit %></td>
+        <td><%= link_to 'Edit', edit_exosuit_path(exosuit) %></td>
+        <td><%= link_to 'Destroy', exosuit, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Exosuit', new_exosuit_path %>

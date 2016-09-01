@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @multitool.name %>
+</p>
+
+<p>
+  <strong>User:</strong>
+  <%= @multitool.user_id %>
+</p>
+
+<%= link_to 'Edit', edit_multitool_path(@multitool) %> |
+<%= link_to 'Back', multitools_path %>

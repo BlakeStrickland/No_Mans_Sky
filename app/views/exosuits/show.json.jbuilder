@@ -1,0 +1,1 @@
+json.partial! "exosuits/exosuit", exosuit: @exosuit
