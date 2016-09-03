@@ -69,6 +69,6 @@ class MultitoolsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def multitool_params
-      params.require(:multitool).permit(:name, :user_id)
+      params.require(:multitool).permit(:name, :user_id, multitool_upgrades_attributes[:name, :user_id])
     end
 end
