@@ -21,13 +21,6 @@ ActiveRecord::Schema.define(version: 20160901203855) do
     t.datetime "updated_at", null: false
   end
 
-  create_table "distances", force: :cascade do |t|
-    t.string   "length"
-    t.string   "direction"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
   create_table "elements", force: :cascade do |t|
     t.string   "name"
     t.integer  "base_cost"
