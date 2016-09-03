@@ -1,27 +1,29 @@
 <% if session[:user_id]%>
-  <h2>Ship</h2>
-  <p><%= @ship.name %></p>
 
+  <p><h2>Ship Name:</h2> <%= @ship.name %></p>
+
+  <h4>Upgrades:</h4>
   <% @ship.ship_upgrades.each do |upgrade| %>
     <%= upgrade.name %>
   <% end %>
 
-  <h2>Exosuit</h2>
-  <p><%= @exosuit.name %></p>
+ <br />
 
+  <p><h2>Exosuit Name:</h2><%= @exosuit.name %></p>
 
+  <h4>Upgrades:</h4>
   <% @exosuit.exosuit_upgrades.each do |upgrade| %>
     <%= upgrade.name %>
   <% end %>
+ <br />
 
-  <h2>Multitool</h2>
-  <p><%= @multitool.name %></p>
-
-
+  <p>  <h2>Multitool Name: </h2><%= @multitool.name %></p>
+  <h4>Upgrades:</h4>
   <% @multitool.multitool_upgrades.each do |upgrade| %>
     <%= upgrade.name %>
   <% end %>
 
+ <br />
   <p><%= link_to 'New Ship', new_ship_path %> | <%= link_to 'New Multitool', new_multitool_path %> | <%= link_to 'New Exosuit', new_exosuit_path %></p>
 <% else %>
   <p>Please log in!</p>

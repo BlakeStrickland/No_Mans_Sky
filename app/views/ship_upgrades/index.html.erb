@@ -1,5 +1,8 @@
 <% @ship_upgrades.each do |upgrade| %>
-  <p><%= upgrade.name %></p>
+  <p>Name: <%= upgrade.name %></p>
+  <p>Recipe: <%= upgrade.recipe %></p>
+  <p>Category <%= upgrade.category %></p>
+  <br />
 <% end %>
 
 <h2>Import Ship upgrades</h2>

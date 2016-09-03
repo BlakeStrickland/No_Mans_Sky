@@ -9,5 +9,7 @@
 User.create!(name: "Blake", email: "blake@gmail.com", password: "password")
 
 Ship.create!(name: "Apollo 411", user_id: 1)
+ShipUpgrade.create!(name: "Cannon Damage Sigma" ,recipe: "Iron x 50 Thamium9 x 50" , category: "Weapon",ship_id: 1)
+
 Multitool.create!(name: "Destiny", user_id: 1)
 Exosuit.create!(name: "Wolverine", user_id:1)
