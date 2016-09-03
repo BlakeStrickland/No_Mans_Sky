@@ -15,10 +15,12 @@ class ExosuitsController < ApplicationController
   # GET /exosuits/new
   def new
     @exosuit = Exosuit.new
+    @exosuit.exosuit_upgrades.build
   end
 
   # GET /exosuits/1/edit
   def edit
+    @exosuit.exosuit_upgrades.build
   end
 
   # POST /exosuits
@@ -69,6 +71,6 @@ class ExosuitsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def exosuit_params
-      params.require(:exosuit).permit(:name, :user_id, exosuit_upgrades_attributes[:name, :user_id])
+      params.require(:exosuit).permit(:name, :user_id, exosuit_upgrades_attributes[:name, :recipe, :category])
     end
 end

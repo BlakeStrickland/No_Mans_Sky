@@ -15,10 +15,12 @@ class ShipsController < ApplicationController
   # GET /ships/new
   def new
     @ship = Ship.new
+    @ship.ship_upgrades.build
   end
 
   # GET /ships/1/edit
   def edit
+    @ship.ship_upgrades.build
   end
 
   # POST /ships
@@ -69,6 +71,6 @@ class ShipsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def ship_params
-      params.require(:ship).permit(:name, :user_id, ship_upgrades_attributes[:name, :user_id])
+      params.require(:ship).permit(:name, :user_id, ship_upgrades_attributes[:name, :recipe, :category])
     end
 end
