@@ -19,6 +19,22 @@
     <%= f.label :user_id %><br>
     <%= f.number_field :user_id %>
   </div>
+
+
+  <%= f.fields_for :exosuit_upgrades do |ff| %>
+  <h2>Edit upgrades</h2>
+    <div>
+      <div class="subfield">
+        <%= ff.label :name %><br>
+        <%= ff.text_field :name %>
+      </div>
+      <div class="subfield">
+        <%= ff.label :user_id %><br>
+        <%= ff.number_field :user_id %>
+      </div>
+    </div>
+  <% end %>
+
   <div class="actions">
     <%= f.submit %>
   </div>
