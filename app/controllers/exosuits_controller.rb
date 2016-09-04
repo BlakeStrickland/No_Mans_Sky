@@ -71,6 +71,6 @@ class ExosuitsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def exosuit_params
-      params.require(:exosuit).permit(:name, :user_id, exosuit_upgrades_attributes[:name, :recipe, :category])
+      params.require(:exosuit).permit(:name, :user_id, exosuit_upgrades_attributes: [:name, :recipe, :category])
     end
 end
