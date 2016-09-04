@@ -1,56 +1,158 @@
 <!-- charts of all info, possibly tabs , acordian?-->
 
 
-
-<h1>Listing Alloys</h1>
-
-<table>
-  <thead>
-    <tr>
-      <th>Name</th>
-      <th>Base cost in store</th>
-      <th>Recipe</th>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
-
-  <tbody>
-    <% @alloys.each do |alloy| %>
-      <tr>
-        <td><%= alloy.name %></td>
-        <td><%= alloy.base_cost %></td>
-        <td><%= alloy.recipe %></td>
-        <td><%= link_to 'Show', alloy %></td>
-        <td><%= link_to 'Edit', edit_alloy_path(alloy) %></td>
-        <td><%= link_to 'Destroy', alloy, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
-
 <ul class="accordion-tabs-minimal">
   <li class="tab-header-and-content">
-    <a href="#" class="tab-link is-active">Tab Item</a>
+    <a href="#" class="tab-link is-active">Alloys</a>
     <div class="tab-content">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras tincidunt pellentesque lorem, id suscipit dolor rutrum id. Morbi facilisis porta volutpat. Fusce adipiscing, mauris quis congue tincidunt, sapien purus suscipit odio, quis dictum odio tortor in sem. Ut sit amet libero nec orci mattis fringilla. Praesent eu ipsum in sapien tincidunt molestie sed ut magna. Nam accumsan dui at orci rhoncus pharetra tincidunt elit ullamcorper. Sed ac mauris ipsum. Nullam imperdiet sapien id purus pretium id aliquam mi ullamcorper.</p>
+      <h1>Listing Alloys</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Base cost in store</th>
+            <th>Recipe</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @alloys.each do |alloy| %>
+            <tr>
+              <td><%= alloy.name %></td>
+              <td><%= alloy.base_cost %></td>
+              <td><%= alloy.recipe %></td>
+              <td><%= link_to 'Show', alloy %></td>
+              <td><%= link_to 'Edit', edit_alloy_path(alloy) %></td>
+              <td><%= link_to 'Destroy', alloy, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
     </div>
   </li>
   <li class="tab-header-and-content">
-    <a href="#" class="tab-link">Another Tab</a>
+    <a href="#" class="tab-link">Elements</a>
     <div class="tab-content">
-      <p>Ut laoreet augue et neque pretium non sagittis nibh pulvinar. Etiam ornare tincidunt orci quis ultrices. Pellentesque ac sapien ac purus gravida ullamcorper. Duis rhoncus sodales lacus, vitae adipiscing tellus pharetra sed. Praesent bibendum lacus quis metus condimentum ac accumsan orci vulputate. Aenean fringilla massa vitae metus facilisis congue. Morbi placerat eros ac sapien semper pulvinar. Vestibulum facilisis, ligula a molestie venenatis, metus justo ullamcorper ipsum, congue aliquet dolor tortor eu neque. Sed imperdiet, nibh ut vestibulum tempor, nibh dui volutpat lacus, vel gravida magna justo sit amet quam. Quisque tincidunt ligula at nisl imperdiet sagittis. Morbi rutrum tempor arcu, non ultrices sem semper a. Aliquam quis sem mi.</p>
+      <h1>Listing Elements</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Base cost in store</th>
+            <th>Recipe</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @elements.each do |element| %>
+            <tr>
+              <td><%= element.name %></td>
+              <td><%= element.base_cost %></td>
+              <td><%= element.recipe %></td>
+              <td><%= link_to 'Show', element %></td>
+              <td><%= link_to 'Edit', edit_element_path(element) %></td>
+              <td><%= link_to 'Destroy', element, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
     </div>
   </li>
   <li class="tab-header-and-content">
-    <a href="#" class="tab-link">Third</a>
+    <a href="#" class="tab-link">Energy</a>
     <div class="tab-content">
-      <p>Donec mattis mauris gravida metus laoreet non rutrum sem viverra. Aenean nibh libero, viverra vel vestibulum in, porttitor ut sapien. Phasellus tempor lorem id justo ornare tincidunt. Nulla faucibus, purus eu placerat fermentum, velit mi iaculis nunc, bibendum tincidunt ipsum justo eu mauris. Nulla facilisi. Vestibulum vel lectus ac purus tempus suscipit nec sit amet eros. Nullam fringilla, enim eu lobortis dapibus, quam magna tincidunt nibh, sit amet imperdiet dolor justo congue turpis.</p>
+      <h1>Listing Energies</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Base cost in store</th>
+            <th>Recipe</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @energys.each do |energy| %>
+            <tr>
+              <td><%= energy.name %></td>
+              <td><%= energy.base_cost %></td>
+              <td><%= energy.recipe %></td>
+              <td><%= link_to 'Show', energy %></td>
+              <td><%= link_to 'Edit', edit_energy_path(energy) %></td>
+              <td><%= link_to 'Destroy', energy, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
     </div>
+     </div>
   </li>
   <li class="tab-header-and-content">
-    <a href="#" class="tab-link">Last Item</a>
+    <a href="#" class="tab-link">Technology</a>
     <div class="tab-content">
-      <p>Sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus dui urna.</p>
-    </div>
+      <h1>Listing Technologies</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Base cost in store</th>
+            <th>Recipe</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @technologies.each do |technology| %>
+            <tr>
+              <td><%= technology.name %></td>
+              <td><%= technology.base_cost %></td>
+              <td><%= technology.recipe %></td>
+              <td><%= link_to 'Show', technology %></td>
+              <td><%= link_to 'Edit', edit_technology_path(technology) %></td>
+              <td><%= link_to 'Destroy', technology, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+      </div>
+        </div>
+  </li>
+  <li class="tab-header-and-content">
+    <a href="#" class="tab-link">Trade Commodities</a>
+    <div class="tab-content">
+      <h1>Listing Trade Commodities</h1>
+
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Base cost in store</th>
+            <th>Recipe</th>
+            <th colspan="3"></th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <% @trade_commodities.each do |trade| %>
+            <tr>
+              <td><%= trade.name %></td>
+              <td><%= trade.base_cost %></td>
+              <td><%= trade.recipe %></td>
+              <td><%= link_to 'Show', trade %></td>
+              <td><%= link_to 'Edit', edit_trade_commodity_path(trade) %></td>
+              <td><%= link_to 'Destroy', trade, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+            </tr>
+          <% end %>
+        </tbody>
+      </table>
+      </div>
+        </div>
   </li>
 </ul>
