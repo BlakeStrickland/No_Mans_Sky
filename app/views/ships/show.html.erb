@@ -1,8 +1,12 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Name:</strong>
-  <%= @ship.name %>
+  <strong>Upgrades:</strong>
+  <% @ship.ship_upgrades.each do |upgrade| %>
+    <%= upgrade.name %>
+    <%= upgrade.recipe %>
+    <%= upgrade.category %>
+  <% end %>
 </p>
 
 <p>
