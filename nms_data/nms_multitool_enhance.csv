@@ -1,0 +1,54 @@
+name,recipe,category
+Beam Coolant System Sigma,	Iridium x 50 Heridium x 20, Laser
+Beam Coolant System Tau,	Iridium x 200 Heridium x 100, Laser
+Beam Coolany System Theta,	Aluminium x 200 Heridium x 100, Laser
+Combat Amplifier Sigma,	Titanium x 30 Carbon x 30, Laser
+Combat Amplifier Tau,	Platinum x 100 Titanium x 50 Chrysonite x 50, Laser
+Combat Amplifier Theta,	Heridium x 400 Iron x 200 Radnox x 20, Laser
+Combat Amplifier Omega,	Heridium x 400 Iron x 200 Gold x 100, Laser
+Beam Focus Sigma,	Iron x 20 Heridium x 20 Plutonium x 25, Laser
+Beam Focus Tau,	Plutonium x 50 Chrysonite x 100, Laser
+Beam Focus Theta,	Plutonium x 50 Chrysonite x 200 Platinum x 200, Laser
+Beam Intensifier Sigma,	Titanium x 30 Plutonium x 25, Laser
+Beam Intensifier Tau,	Copper x 60 Iron x 200, Laser
+Beam Intensifier Theta,	Copper x 120 Iron x 100 Iridium x 100, Laser
+Railshot Adaptor,	Aluminium x 100 Copper x 50 Iron x 200, Laser
+Boltcaster,	Iron x 25 Plutonium x 25, Projectile
+Ricochet Sigma,	Platinum x 100 Iron x 200 Heridium x 200, Projectile
+Ricochet Tau,	Platinum x 300 Zinc x 150 Microdensity Fabric x 1, Projectile
+Ricochet Theta,	Gold x 100 Plutonium x 100 Platinum x 100, Projectile
+Boltcaster Clip Sigma,	Plutonium x 50 Titanium x 20 Microdensity Fabric x 2, Projectile
+Boltcaster Clip Tau,	Plutonium x 50 Zinc x 20 Nickel x 10, Projectile
+Boltcaster Clip Theta,	Plutonium x 50 Zinc x 50 Nickel x 150, Projectile
+Impact Damage Sigma,	Iridium x 50 Iron x 50 Platinum x 100, Projectile
+Impact Damage Tau,	Iridium x 50 Iron x 50 Platinum x 100, Projectile
+Impact Damage Theta,	Iridium x 200 Radnox x 80 Platinum x 200, Projectile
+Impact Damage Omega,	Copper x 200 Aluminium x 200 Heridium x 400, Projectile
+Homingbolt Adaptor,	AquaSphere x 5 Titanium x 200 Plutonium x 200, Projectile
+Rapidfire Sigma,	Nickel x 50 Iron x 20, Projectile
+Rapidfire Tau,	Titanium x 200 Platinum x 100 Aluminium x 100, Projectile
+Rapidfire Theta,	Aluminium x 100 Platinum x 200, Projectile
+Reload Accelerant Sigma,	Iron x 20 Heridium x 15 Zinc x 10, Projectile
+Reload Accelerant Tau,	Chrysonite x 50 Zinc x 100 Plutonium x 50, Projectile
+Reload Accelerant Theta,	Calium x 50 Zinc x 100 Plutonium x 50, Projectile
+Wideshot Adaptor,	Copper x 40 Heridium x 100 Iron x 50, Projectile
+Shortburst Adaptor,	Copper x 60 Heridium x 100 Zinc x 20, Projectile
+Recoil Stabiliser Sigma,	Thamium9 x 100 Titanium x 50 Chrysonite x 50, Projectile
+Recoil Stabiliser Tau,	Thamium9 x 200 Titanium x 100 Chrysonite x 150, Projectile
+Recoil Stabiliser Theta,	Heridium x 250 Zinc x 100 Platinum x 150, Projectile
+Boltcaster SM,	Iridium x 50 Iron x 50 Platinum x 100, Projectile
+Plasma Launcher,	Plutonium x 30 Heridium x 20 Carbon x 15, Grenade
+Rebound Grenades,	Zinc x 10 Platinum x 20 Chrysonite x 15, Grenade
+Rebound Grenades Tau,	Heridium x 200 Titanium x 200 Chrysonite x 250, Grenade
+Grenade Intensity Sigma,	Thamium9 x 150 Zinc x 20 Heridium x 200, Grenade
+Grenade Intensity Tau,	Iron x 200 Aluminium x 200 Nickel x 200, Grenade
+Grenade Intensity Theta,	Neutrino Module x 4 Aluminium x 200 Nickel x 200, Grenade
+Homing Grenade,	Aluminium x 100 Iron x 50 Gold x 100, Grenade
+Damage Radius,	Zinc x 100 Iron x 50 Chrysonite x 150, Grenade
+Damage Radius Tau,	Plutonium x 200 Emeril x 50, Grenade
+Grenade Propulsion,	Zinc x 10 Platinum x 20 Chrysonite x 15, Grenade
+Grenade Propulsion Tau,	Thamium9 x 150 Zinc x 20 Chrysonite x 150, Grenade
+Scanner,	Carbon x 50, Scanner
+Rangeboost Sigma,	Thamium9 x 30 Platinum x 15 Carbon x 30, Scanner
+Rangeboost Tau,	Thamium9 x 120 Chrysonite x 120 Plutonium x 200, Scanner
+Analysis Visor,	Iron x 50, Scanner

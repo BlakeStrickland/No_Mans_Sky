@@ -1,0 +1,30 @@
+name,recipe,category
+Health Module Sigma,	Iron x 50 Plutonium x 50 Zinc x 10, Health
+Health Module Tau,	Aluminium x 150 Carbon x 250 Thamium9 x 50, Health
+Health Module Theta,	Aluminium x 200 Plutonium x 250 Thamium9 x 300, Health
+Shieldboost Sigma, Zinc x 15 Platinum x 15 Thamium9 x 15, Health
+Shieldboost Tau,	Zinc x 100 Platinum x 100 Gold x 50, Health
+Shieldboost Theta,	Chrysonite x 300 Microdensity Fabric x 2, Health
+Thermic Layer Sigma,	Iron x 50 Carbon x 100, Protection
+Thermic Layer Tau,	Zinc x 50 Carbon x 100 Microdensity Fabric x 1, Protection
+Thermic Layer Theta,	Microdenisty x 2 Electron Vapour x 1 Gravitio Ball x 1, Protection
+Coolant Network Sigma,	Iron x 50 Carbon x 100, Protection
+Coolant Network Tau,	Zinc x 50 Carbon x 100 Microdensity Fabric x 1, Protection
+Coolant Network Theta,	Microdensity Fabric x 2 Electron Vapour x 1 Gravitino Ball x 1, Protection
+Radiation Deflector Sigma,	Iron x 50 Carbon x 100, Protection
+Radiation Deflector Tau,	Zinc x 50 Carbon x 100 Microdensity Fabric x 1, Protection
+Radiation Deflector Theta,	Microdenisty x 2 Electron Vapour x 1 Gravitino Ball x 1, Protection
+Toxin Suppressor Sigma,	Iron x 50 Carbon x 100, Protection
+Toxin Suppressor Tau,	Zinc x 50 Carbon x 100 Microdensity Fabric x 1, Protection
+Toxin Suppressor Theta,	Microdenisty Fabric x 2 Electron Vapour x 1 Gravitino Ball x 1, Protection
+Stamina Enhancement Sigma,	Iron x 20 Carbon x 20, Stamina
+Stamina Enhancement Tau,	Iron x 100 Heridium x 150 Plutonium x 50, Stamina
+Stamina Enchanment Theta,	Zinc x 150 Heridium x 150 Plutonium x 50, Stamina
+Aeration Membrane Sigma,	Iron x 50 Carbon x 100, Stamina
+Aeration Membrane Tau,	Zinc x 50 Carbon x 100 Microdensity Fabric x 1, Stamina
+Aeration Membrane Theta,	Microdenisty Fabric x 2 Electron Vapour x 1 Gravitino Ball x 1, Stamina
+Life Support Module Sigma,	Plutonium x 50 Platinum x 20, Utilities
+Life Support Module Tau,	Plutonium x 50 Platinum x 150, Utilities
+Jetpack Booster Sigma,	Carite Sheet x 1 Platinum x 15 Zinc x 10, Utilities
+Jetpack Booster Tau,	Chrysonite x 150 Titanium x 150 Plutonium x 150, Utilities
+Jetpack Booster Theta,	Omegon x 50 Chrysonite x 300 Plutonium x 300, Utilities

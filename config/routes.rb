@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
 
+
   resources :exosuits
   resources :multitools
   resources :ships
@@ -37,6 +38,7 @@ Rails.application.routes.draw do
   root 'dashboards#home'
 
   get 'dashboards/home'
+  get 'dashboards/all_info'
 
   get '/login' => 'sessions#new'
   post '/login' => 'sessions#create'
